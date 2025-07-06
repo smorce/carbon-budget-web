@@ -25,7 +25,7 @@
 ## 📊 データソース
 
 - **カウントダウンデータ:** [Climate Clock](https://climateclock.world/)
-- **NASAの気温偏差ビデオ:** [NASA's Earth's Recent Climate Spiral](https://www.youtube.com/watch?v=ACaPI2M4GyU) 
+- **NASAの気温偏差ビデオ:** [NASA's Earth's Recent Climate Spiral](https://www.youtube.com/watch?v=ACaPI2M4GyU)
 
 ## 📜 ライセンス
 
