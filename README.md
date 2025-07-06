@@ -1,32 +1,32 @@
-# Carbon Budget Web - 1.5°C Climate Countdown
+# カーボンバジェットウェブ - 1.5℃目標までの気候カウントダウン
 
-This is a simple, single-page web application that displays the time remaining to limit global warming to 1.5°C, based on data from the [Climate Clock](https://climateclock.world/).
+これは、[Climate Clock](https://climateclock.world/) のデータに基づき、地球温暖化を1.5℃に抑えるための残り時間を表示する、シンプルなシングルページのウェブアプリケーションです。
 
-The goal of this project is to provide a clear and accessible visualization of the urgency of climate action.
+このプロジェクトの目的は、気候変動対策の緊急性を明確かつアクセスしやすい形で可視化することです。
 
-## ✨ Features
+## ✨ 主な機能
 
-- **Real-time Countdown:** Displays a live countdown for the 1.5°C carbon budget in years, days, hours, minutes, and seconds.
-- **Dynamic Visualization:** Uses circular progress bars to visualize the passing of time for hours, minutes, and seconds.
-- **NASA Visualization:** Includes an embedded NASA video showing global temperature anomalies from 1880 to 2021 to provide historical context.
-- **Responsive Design:** The layout is optimized for viewing on both desktop and mobile devices.
-- **Automatic Data Refresh:** The countdown data is automatically fetched from the Climate Clock API every hour to ensure accuracy.
+- **リアルタイムカウントダウン:** 1.5℃目標のカーボンバジェット（炭素予算）が尽きるまでの時間を、年、日、時間、分、秒でライブ表示します。
+- **動的な可視化:** 時間、分、秒の経過を円形のプログレスバーで視覚的に表現します。
+- **NASAによる可視化:** 1880年から2021年までの世界の気温偏差を示すNASAのビデオを埋め込み、歴史的な文脈を提供します。
+- **レスポンシブデザイン:** PCとモバイルデバイスの両方で最適に表示されるようにレイアウトが調整されています。
+- **データの自動更新:** 正確性を保つため、カウントダウンデータはClimate Clock APIから1時間ごとに自動的に取得されます。
 
-## 🛠️ Technology Stack
+## 🛠️ 使用技術
 
 - **HTML5**
-- **CSS3** (with Google Fonts for typography)
+- **CSS3** (タイポグラフィにはGoogle Fontsを使用)
 - **Vanilla JavaScript** (ES6+)
 
-## ⚙️ How It Works
+## ⚙️ 仕組み
 
-The application fetches data from the public Climate Clock API (`https://api.climateclock.world/v2/clock.json`). The JavaScript then calculates the remaining time from the "carbon_deadline_1" module timestamp and updates the clock display every second.
+このアプリケーションは、公開されているClimate Clock API (`https://api.climateclock.world/v2/clock.json`) からデータを取得します。取得したデータのうち、`carbon_deadline_1`モジュールのタイムスタンプを基に、JavaScriptが残り時間を計算し、1秒ごとに時計の表示を更新します。
 
-## 📊 Data Source
+## 📊 データソース
 
-- **Countdown Data:** [Climate Clock](https://climateclock.world/)
-- **Temperature Anomaly Video:** [NASA's Scientific Visualization Studio](https://svs.gsfc.nasa.gov/5071/)
+- **カウントダウンデータ:** [Climate Clock](https://climateclock.world/)
+- **気温偏差ビデオ:** [NASA's Scientific Visualization Studio](https://svs.gsfc.nasa.gov/5071/)
 
-## 📜 License
+## 📜 ライセンス
 
-This project is released under the [The Unlicense](LICENSE). You are free to use, modify, and distribute this code as you see fit.
+このプロジェクトは [The Unlicense](LICENSE) の下で公開されています。コードを自由に使用、変更、配布することができます。
